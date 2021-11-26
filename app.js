@@ -5,6 +5,7 @@ const bodyParser=require("body-parser")
 const mongoose=require("mongoose")
 const encrypt= require("mongoose-encryption")
 
+
 const app=express()
 app.set("view engine","ejs")
 app.use("/public",express.static("public"))
